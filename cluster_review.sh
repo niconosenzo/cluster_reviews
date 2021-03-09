@@ -228,6 +228,7 @@ registry
 monitoring
 routing
 storage
+limits
 "
 
 
