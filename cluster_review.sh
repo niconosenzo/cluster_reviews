@@ -180,7 +180,7 @@ omg get co storage -o json | grep -v WARN | jq '.status.relatedObjects[] | selec
 
 limits() {
 # # of Pods
-echo "numer of pods: $(cat pods.txt| grep -v NAME | wc -l)"
+echo "number of pods: $(cat pods.txt| grep -v NAME | wc -l)"
 echo "completed: $(cat pods.txt| grep Completed -c)"
 echo "containerCreating: $(cat pods.txt| grep ContainerCreating -c)" 
 echo "crashLoopBackOff: $(cat pods.txt| grep CrashLoopBackOff -c)"

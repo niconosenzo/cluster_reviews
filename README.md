@@ -8,3 +8,4 @@ OCP4 version of the cluster-review PG program. It only includes checks that can 
 ## Dependecies:
 - omg
 - jq
+- `pods.txt` file (`oc get pods -A -o wide > pods.txt`)
